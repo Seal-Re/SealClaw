@@ -1,2 +1,34 @@
-/NapCat/
+# ── Secrets & local config ──
 .env
+.env.local
+*.env
+!.env.example
+llm.secrets.env
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Runtime data ──
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite*
+logs/
+*.log
+
+# ── OneBot sidecar ──
+/NapCat/
+
+# ── IDE / OS ──
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
