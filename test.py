@@ -3,8 +3,8 @@ import requests
 import json
 
 # ================= 配置区 =================
-BASE_URL = os.getenv("LLM_BASE_URL", "http://192.168.1.4:3004/v1") 
-API_KEY = os.getenv("LLM_API_KEY", "sk-nuz2utdjbgpXgYtV3NNzCfAJuYbNmqkviHQnk1QyJALq6k0H")
+BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:3004/v1")
+API_KEY = os.getenv("LLM_API_KEY", "")
 MODEL = os.getenv("LLM_MODEL", "gpt-5.2")
 # ==========================================
 
